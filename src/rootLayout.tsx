@@ -5,8 +5,9 @@ import DrawerAppBar from "./components/drawerAppBar";
 import {AppProvider} from "./providers/appProvider";
 import SimpleBackdrop from "./components/backdrop";
 import App from "./App";
-import AidaProvider from "./providers/aidaProvider";
-// import {AidaProvider} from "aida-chatbot";
+// import AidaProvider from "./providers/aidaProvider";
+import AidaProvider from "aida-chatbot";
+import React from "react";
 
 export default function RootLayout({
                                        children
@@ -17,9 +18,7 @@ export default function RootLayout({
 
     return (
         <AppProvider>
-            <AidaProvider credentials={
-                {endPoint, azureApiKey, deploymentId}
-            }>
+            <AidaProvider azureApiKey={azureApiKey} deploymentId={deploymentId} endPoint={endPoint}>
                 <SimpleBackdrop />
                 <DrawerAppBar />
                 <App />

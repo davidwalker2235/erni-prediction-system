@@ -3,7 +3,8 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import erniLogo from '../images/ERNI_logo_color.png';
-import Aida from "./aida";
+// import Aida from "./aida";
+import Aida from 'aida-chatbot'
 
 export default function ButtonAppBar() {
     return (
@@ -29,7 +30,6 @@ export default function ButtonAppBar() {
                     >
                         ERNI Prediction System
                     </Typography>
-                    <Aida />
                 </Toolbar>
             </AppBar>
         </Box>

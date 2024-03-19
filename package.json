@@ -20,7 +20,7 @@
     "@types/node": "^16.18.88",
     "@types/react": "^18.2.65",
     "@types/react-dom": "^18.2.21",
-    "aida-chatbot": "^1.1.31",
+    "aida-chatbot": "^1.1.42",
     "leaflet": "^1.9.4",
     "react-leaflet": "^4.2.1",
     "react-leaflet-heatmap-layer-v3": "^3.0.3-beta-1",
@@ -30,6 +30,10 @@
     "web-vitals": "^2.1.4"
   },
   "peerDependencies": {
+    "@mui/icons-material": "^5.15.12",
+    "@mui/material": "^5.15.12",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.17",
+    "@mui/x-charts": "^6.19.5",
     "react": "^17.0.0 || ^18.0.0",
     "react-dom": "^17.0.0 || ^18.0.0"
   },

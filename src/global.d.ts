@@ -1,1 +1,1 @@
-declare module 'aida-chatbot/src';
+declare module 'aida-chatbot';
